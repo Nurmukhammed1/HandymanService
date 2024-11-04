@@ -2,10 +2,10 @@ package FactoryPattern;
 
 class ElectricalRepair implements RepairService {
     public String getServiceDetails() {
-        return "Electrical Repair Service";
+        return "Electrical Repair Servic";
     }
 
     public double getCost() {
-        return 50.0;
+        return 500.0;
     }
 }
