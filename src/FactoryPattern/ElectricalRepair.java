@@ -6,6 +6,6 @@ class ElectricalRepair implements RepairService {
     }
 
     public double getCost() {
-        return 500.0;
+        return 50.0;
     }
 }
