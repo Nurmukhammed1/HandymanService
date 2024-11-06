@@ -1,3 +1,5 @@
+package Facade;
+
 class Scheduler {
     public String suggestTimeSlot() {
         // Simple implementation, in reality, this would check an actual schedule

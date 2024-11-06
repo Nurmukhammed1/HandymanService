@@ -1,6 +1,6 @@
 package FactoryPattern;
 
-interface RepairService {
+public interface RepairService {
     String getServiceDetails();
     double getCost();
 }

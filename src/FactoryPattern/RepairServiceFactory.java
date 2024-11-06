@@ -1,6 +1,6 @@
 package FactoryPattern;
 
-class RepairServiceFactory {
+public class RepairServiceFactory {
     public static RepairService getRepairService(String serviceType) {
         switch (serviceType.toLowerCase()) {
             case "electrical":

@@ -1,4 +1,10 @@
-class HandymanFacade {
+package Facade;
+
+import FactoryPattern.RepairService;
+import FactoryPattern.RepairServiceFactory;
+import Payment.PaymentStrategy;
+
+public class HandymanFacade {
     private Scheduler scheduler;
     private RepairServiceFactory repairServiceFactory;
 
